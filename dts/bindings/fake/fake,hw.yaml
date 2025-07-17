@@ -1,0 +1,5 @@
+# Copyright (c) 2025 Vladislav Zilkov <vladislav.zilkov@intel.com>
+# SPDX-License-Identifier: Apache-2.0
+
+compatible: "fake,hw"
+description: HW Fake driver for prints

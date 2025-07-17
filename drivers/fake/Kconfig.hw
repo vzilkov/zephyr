@@ -1,0 +1,15 @@
+# Copyright (c) 2025 Vladislav Zilkov <vladislav.zilkov@intel.com>
+# SPDX-License-Identifier: Apache-2.0
+
+config HW_FAKE
+        bool "FAKE Hardware driver"
+        default n
+        help
+          Enables driver for the FAKE prints as a hardware device. 
+
+#if HW_FAKE
+
+#module = HW_FAKE
+#module-str = hw_fake
+
+#endif
